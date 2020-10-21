@@ -1,0 +1,129 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+body {
+ width: 100%;
+ height: 100%;
+ outline: 0;
+ padding: 0;
+ margin: 0;
+}
+
+main {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(https://cdn.wallpapersafari.com/73/72/hEgsMQ.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+section {
+  margin-top: 50px;
+}
+section > h1 {
+  font-family: sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+#inputBox {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 30px 50px;
+  margin-top: 10px;
+  background-color: #DDBEA9;
+}
+#inputBox > input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: transparent; 
+  color: #F0EFEB;
+}
+#inputBox > button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #B7B7A4;
+  color: #F0EFEB;
+}
+#inputBox > button:hover {
+  cursor: pointer;
+  background-color: #F0EFEB;
+  color: #000;
+}
+
+
+#listBox {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 30px 50px;
+  margin-top: 10px;
+  background-color: #A5A58D;
+  margin-bottom: 10px;
+}
+#listBox > ol {
+  padding: 0px;
+  /* list-style: none; */
+}
+#listBox > ol > li {
+  color: #F0EFEB;
+  padding: 5px 0px;
+}
+
+
+#resetBox {
+  margin-bottom: 150px;
+}
+#resetBox > button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #CB997E;
+  color: #F0EFEB;
+}
+#resetBox > button:hover {
+  cursor: pointer;
+  background-color: #F0EFEB;
+  color: #000;
+}
+
+
+#lastBox {
+  margin-bottom: 10px;
+}
+#lastBox > button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #EDDCD2;
+  color: #000;
+}
+#lastBox > button:hover {
+  cursor: pointer;
+  background-color: #F0EFEB;
+  color: #000;
+}
